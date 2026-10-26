@@ -1,0 +1,16 @@
+node_modules/
+dist/
+target/
+src-tauri/target/
+src-tauri/gen/schemas/
+.DS_Store
+*.local
+.env
+.env.*
+!.env.example
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+coverage/
+artifacts/
+# .scratch/cachewisp is the tracked local issue tracker.
