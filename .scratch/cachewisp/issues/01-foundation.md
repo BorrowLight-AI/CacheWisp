@@ -38,3 +38,11 @@ None — can start immediately.
 ## Comments
 
 2026-10-26：原生应用启动与设置重启恢复已验证；检查和构建记录见 [INITIALIZATION.md](../../../docs/INITIALIZATION.md)。
+
+### 文档双语维护（2026-10-26）
+
+- [x] 保留 `README.md` 为英文默认首页，新增 [中文首页](../../../README.zh-CN.md)，双向语言跳转。
+- [x] 共 16 组中英文文档：README、贡献指南、领域上下文、产品计划、路线图、任务索引、验证方案、初始化记录、5 份 ADR 和 3 份工程协作说明。详细任务记录仍以中文为主，导航如实标注。
+- [x] 中英文版本保持已实现/待实现及资源目标的边界；原始产品决策与已接受 ADR 仍为权威依据。
+- [x] `pnpm verify` 通过：格式、59 份 Markdown 本地链接、25 项任务依赖无环、TypeScript、Vite 构建、6 项 Rust 测试、Rust fmt 与 Clippy。
+- [x] `git diff --check` 通过。本次只修改文档及文档检查范围，未重复原生启动或资源基准验证。

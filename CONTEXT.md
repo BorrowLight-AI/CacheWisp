@@ -1,5 +1,7 @@
 # CacheWisp domain context
 
+**English** | [简体中文](CONTEXT.zh-CN.md)
+
 ## Product
 
 CacheWisp（轻灵）is a lightweight, free, open-source developer disk-space manager with an optional monitoring companion. It ships on macOS first and preserves a reusable core for later Windows/Linux work.

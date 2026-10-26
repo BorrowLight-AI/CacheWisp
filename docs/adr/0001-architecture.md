@@ -1,5 +1,7 @@
 # ADR-0001：Tauri 2、独立 Rust 核心与本地 SQLite
 
+[English](0001-architecture.en.md) | **简体中文**
+
 状态：接受。日期：2026-10-26。
 
 ## 背景

@@ -1,5 +1,7 @@
 # CacheWisp · 轻灵
 
+**English** | [简体中文](README.zh-CN.md)
+
 Keep your dev space light.
 
 A local-first developer disk-space companion. macOS first, with a platform-independent Rust core for future desktop platforms.
@@ -26,14 +28,27 @@ An application bundle is produced at target/release/bundle/macos/CacheWisp.app. 
 
 ## Documents
 
-- [详细产品与实施计划](docs/plan/PRODUCT-PLAN.md)
-- [里程碑和实施顺序](docs/plan/ROADMAP.md)
-- [任务总表（25 项）](docs/TASKS.md)
-- [领域术语](CONTEXT.md)
-- [架构决策](docs/adr/0001-architecture.md)
-- [验证与性能基准方案](docs/VALIDATION.md)
-- [初始化验证记录](docs/INITIALIZATION.md)
-- [贡献指南](CONTRIBUTING.md)
+This English README is the default repository homepage. Use [简体中文](README.zh-CN.md) for the Chinese introduction, setup instructions and documentation index. Both versions describe the same implementation status and release scope.
+
+| Document                              | English                                     | 简体中文                                       |
+| ------------------------------------- | ------------------------------------------- | ---------------------------------------------- |
+| Product and implementation plan       | [English](docs/plan/PRODUCT-PLAN.en.md)     | [简体中文](docs/plan/PRODUCT-PLAN.md)          |
+| Milestones and implementation order   | [English](docs/plan/ROADMAP.en.md)          | [简体中文](docs/plan/ROADMAP.md)               |
+| Task index (25 tasks)                 | [English](docs/TASKS.en.md)                 | [简体中文](docs/TASKS.md)                      |
+| Domain vocabulary                     | [English](CONTEXT.md)                       | [简体中文](CONTEXT.zh-CN.md)                   |
+| ADR-0001: Architecture                | [English](docs/adr/0001-architecture.en.md) | [简体中文](docs/adr/0001-architecture.md)      |
+| ADR-0002: Measurements                | [English](docs/adr/0002-measurement.en.md)  | [简体中文](docs/adr/0002-measurement.md)       |
+| ADR-0003: Cleanup                     | [English](docs/adr/0003-cleanup.en.md)      | [简体中文](docs/adr/0003-cleanup.md)           |
+| ADR-0004: AI                          | [English](docs/adr/0004-ai.en.md)           | [简体中文](docs/adr/0004-ai.md)                |
+| ADR-0005: Residency                   | [English](docs/adr/0005-residency.en.md)    | [简体中文](docs/adr/0005-residency.md)         |
+| Validation and performance benchmarks | [English](docs/VALIDATION.en.md)            | [简体中文](docs/VALIDATION.md)                 |
+| Foundation validation record          | [English](docs/INITIALIZATION.en.md)        | [简体中文](docs/INITIALIZATION.md)             |
+| Contributing guide                    | [English](CONTRIBUTING.md)                  | [简体中文](CONTRIBUTING.zh-CN.md)              |
+| Domain documentation guide            | [English](docs/agents/domain.md)            | [简体中文](docs/agents/domain.zh-CN.md)        |
+| Local issue tracker guide             | [English](docs/agents/issue-tracker.md)     | [简体中文](docs/agents/issue-tracker.zh-CN.md) |
+| Triage labels                         | [English](docs/agents/triage-labels.md)     | [简体中文](docs/agents/triage-labels.zh-CN.md) |
+
+The documents above are available in both languages, with language links at the top of each page. Detailed task records (`.scratch/cachewisp/issues`) currently remain primarily Chinese; the task index provides bilingual navigation. The product plan and accepted ADRs remain authoritative; if a translation is ambiguous, refer to the document recording the original decision. Keep language counterparts in sync when updating documents.
 
 ## First-release scope
 

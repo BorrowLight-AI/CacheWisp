@@ -1,5 +1,7 @@
 # Triage labels
 
+**English** | [简体中文](triage-labels.zh-CN.md)
+
 | Canonical role  | Local Status    |
 | --------------- | --------------- |
 | needs-triage    | needs-triage    |

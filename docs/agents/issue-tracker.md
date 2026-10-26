@@ -1,5 +1,7 @@
 # Local Markdown issue tracker
 
+**English** | [简体中文](issue-tracker.zh-CN.md)
+
 Tasks are tracked in .scratch/cachewisp/issues and indexed by docs/TASKS.md. This directory is intentionally committed, not temporary scratch data.
 
 The authoritative product plan is docs/plan/PRODUCT-PLAN.md; .scratch/cachewisp/PRD.md points to it. Stable task IDs are CW-001 through CW-025.

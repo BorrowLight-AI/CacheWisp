@@ -15,9 +15,15 @@ async function markdown(directory) {
 const files = [
   ...(await markdown(resolve(root, "docs"))),
   ...(await markdown(resolve(root, ".scratch"))),
-  ...["README.md", "AGENTS.md", "CONTEXT.md", "CONTRIBUTING.md"].map((name) =>
-    resolve(root, name),
-  ),
+  ...[
+    "README.md",
+    "README.zh-CN.md",
+    "AGENTS.md",
+    "CONTEXT.md",
+    "CONTEXT.zh-CN.md",
+    "CONTRIBUTING.md",
+    "CONTRIBUTING.zh-CN.md",
+  ].map((name) => resolve(root, name)),
 ];
 const failures = [];
 const graph = new Map();

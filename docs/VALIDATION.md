@@ -1,5 +1,7 @@
 # 验证与性能基准
 
+[English](VALIDATION.en.md) | **简体中文**
+
 ## 当前基础工程命令
 
 ```sh
